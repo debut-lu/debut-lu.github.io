@@ -35,7 +35,7 @@ body main article {
     color: #000000;
 }
 .background {
-    background-image: url(../_images/AdobeStock_216474184_Preview.jpeg);
+    background-image: url(../images/AdobeStock_216474184_Preview.jpeg);
     padding-top: 10px;
     padding-left: 50px;
     /* [disabled]height: 600px; */
