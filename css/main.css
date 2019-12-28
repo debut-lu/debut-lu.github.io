@@ -1,53 +1,102 @@
 @charset "utf-8";
 
 body {
+    ;
     margin: auto;
-    /* [disabled]width: 90%; */;
     font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
-    background-repeat: no-repeat;
-    background-size: cover;
 }	
 body header {
     background-color: #344055;
-    padding-left: 50px;
-    left: 0px;
-    margin-left: 0px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding: 30px 0;
+    /*border: thin solid yellow;*/
 }
-body main {
-    background-size: cover;
-    color: #FFFFFF;
+.content-wrap {
+    margin: 0 auto;
+    padding: 10px 0;
+    width: 95%;
+    /*border: thin dashed rgba(255,0,4,1.00);*/
 }
 
 body header h1 {
-    background-color: inherit;
     color: #FFFFFF;
-    background-size: cover;
-    background-repeat: no-repeat;
 }
 body header p {
     font-size: large;
     color: #FFFFFF;
     font-style: italic;
 }
-body main article {
-    color: #000000;
-}
 .background {
     background-image: url(../images/AdobeStock_216474184_Preview.jpeg);
-    padding-top: 10px;
-    padding-left: 50px;
-    /* [disabled]height: 600px; */
+    height: 400px;
     background-size: cover;
-    padding-right: 50px;
     color: #FFFFFF;
-    padding-bottom: 300px;
+    padding-top: 30px;
+    /*border: thin solid rgba(255,255,0,1.00);*/
+}
+.themes {
+    padding-top: 30px;
+
+}
+.themes .content-wrap {
+    padding-bottom: 30px;
 }
 
-.background p {
-    font-size: large;
+
+.themes .grid-container .grid-item {
+    background-color: rgba(37,164,220,1.00);
 }
-.themes h2 {
+.themes .flex-container {
+	width:95%;
+	margin:0 auto;
+    /*background-color: lightsteelblue;*/
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    -o-flex-wrap: wrap;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/*@media (max-width:500px) {
+	.themes .flex-container {
+		background-color: green;}
+}*/
+
+
+.themes .flex-container .flex-item {
+	height:200px;
+    border: thin solid midnightblue;
+    background-color: #344055;
+    flex: 0 0 300px;
     text-align: center;
+	color: #FFFFFF;
+    
+    margin: 10px 10px;
+}
+
+
+
+
+
+.themes .grid-container {
+    display: grid;
+}
+
+.themes .content-wrap {
+    text-align: center;
+}
+
+@media (min-width:690px){
+	.themes .content-wrap {
+    text-align: left;
+	}
+}
+
+.flex-container .flex-item h3 {
+    margin: 20px 10px;
+    border-radius: 3px;
+    padding: 5px 0;
+    background-color: hsla(0,0%,100%,0.25);
+    height: 45px;
 }
