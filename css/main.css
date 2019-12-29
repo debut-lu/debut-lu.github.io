@@ -65,15 +65,23 @@ body header p {
 
 
 .themes .flex-container .flex-item {
-	height:200px;
+    height: 200px;
     border: thin solid midnightblue;
-    background-color: #344055;
     flex: 0 0 300px;
     text-align: center;
-	color: #FFFFFF;
-    
+    color: #FFFFFF;
     margin: 10px 10px;
+    background-image: url(../images/AdobeStock_216474184_Preview.jpeg);
+    background-size: cover;
 }
+.flex-container .flex-item p {
+	color:black;
+	margin: 2px 5px;
+    border-radius: 3px;
+    padding: 2px 0;
+    background-color: hsla(0,0%,100%,0.75);
+}
+
 
 
 
