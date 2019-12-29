@@ -1,0 +1,53 @@
+@charset "utf-8";
+
+body {
+    margin: auto;
+    /* [disabled]width: 90%; */;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+}	
+body header {
+    background-color: #344055;
+    padding-left: 50px;
+    left: 0px;
+    margin-left: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+body main {
+    background-size: cover;
+    color: #FFFFFF;
+}
+
+body header h1 {
+    background-color: inherit;
+    color: #FFFFFF;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+body header p {
+    font-size: large;
+    color: #FFFFFF;
+    font-style: italic;
+}
+body main article {
+    color: #000000;
+}
+.background {
+    background-image: url(../_images/AdobeStock_216474184_Preview.jpeg);
+    padding-top: 10px;
+    padding-left: 50px;
+    /* [disabled]height: 600px; */
+    background-size: cover;
+    padding-right: 50px;
+    color: #FFFFFF;
+    padding-bottom: 300px;
+}
+
+.background p {
+    font-size: large;
+}
+.themes h2 {
+    text-align: center;
+}
