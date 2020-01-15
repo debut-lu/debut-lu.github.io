@@ -17,7 +17,7 @@
 	
 	<body style="background-color:hsla(0,0%,90%,1.00)">
 
-		<nav class="navbar navbar-dark bg-dark navbar-expand-sm">
+		<nav class="navbar navbar-dark bg-dark navbar-expand-md">
 			
 			<div class="container">
 
@@ -30,14 +30,30 @@
 					
 				</button>
 
-				<a href="https://debut-lu.github.io/" class="navbar-brand">DEBUT</a>
+				<a href="index.html" class="navbar-brand">DEBUT</a>
 
 				<div class="collapse navbar-collapse" id="myTogglerNav">
 					
 					<div class="navbar-nav ml-auto">
 						
 						<a class="nav-item nav-link active" href="#">Home</a>
-						<a class="nav-item nav-link" href="#">Research</a>
+						
+						<div class="dropdown">
+
+							<a class="nav-item nav-link dropdown-toggle" 
+							  data-toggle="dropdown" id="researchDropdown"
+							  aria-haspopup="true" aria-expanded="false"
+							  href="#">Research</a>
+
+							<div class="dropdown-menu" aria-labelledby="researchDropdown">
+								<a class="dropdown-item" href="#">Digital Twinning</a>
+								<a class="dropdown-item" href="#">Data Science and Analytics</a>
+								<a class="dropdown-item" href="#">Simulation and Performance Engineering</a>
+								<a class="dropdown-item" href="#">Advanced Digital Design</a>
+							</div>
+
+						</div>
+						
 						<a class="nav-item nav-link" href="#">Learning</a>
 						<a class="nav-item nav-link" href="#">Facilities</a>
 						<a class="nav-item nav-link" href="#">People</a>
@@ -158,11 +174,11 @@
 						<div class="col-sm-6">
 						<p>Study with us on one of our world leading courses:</p>
 						  <ul>
-							<li class="h5">MEng Architectural Engineering</li>
-							<li class="h5">MPlan Urban Planning</li>
-							<li class="h5">MSc Low Energy Building Services Engineering</li>
-							<li class="h5">MSc Construction Project Management with Building Information Modelling</li>
-							<li class="h5">MSc Sustainable Design and Construction</li>
+							<li class="h5"><a href="https://www.lboro.ac.uk/architectural-engineering/">MEng Architectural Engineering</a></li>
+							<li class="h5"><a href="https://www.lboro.ac.uk/urban-planning/">MPlan Urban Planning</a></li>
+							<li class="h5"><a href="https://www.lboro.ac.uk/study/postgraduate/masters-degrees/a-z/low-energy-building-services-engineering/">MSc Low Energy Building Services Engineering</a></li>
+							<li class="h5"><a href="https://www.lboro.ac.uk/study/postgraduate/masters-degrees/a-z/construction-project-management-building-info/">MSc Construction Project Management with Building Information Modelling</a></li>
+							<li class="h5"><a href="https://www.lboro.ac.uk/study/postgraduate/masters-degrees/a-z/sustainable-design-construction/">MSc Sustainable Design and Construction</a></li>
 						  </ul>
 						</div>
 
@@ -182,7 +198,10 @@
 
 				<div class="container pt-4 pb-4">
 
-					<p>The DEBUT Research Centre is located in the School of Architecture, Building and Civil Engineering at Loughborough University</p>
+					<p>The DEBUT Research Centre is located in the 
+						<a href="https://www.lboro.ac.uk/departments/abce/">School of Architecture, Building and Civil Engineering</a> 
+						at 
+						<a href="https://www.lboro.ac.uk/">Loughborough University</a></p>
 
 				</div>
 
